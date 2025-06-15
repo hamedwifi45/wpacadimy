@@ -1801,3 +1801,34 @@ p {
 .site-info {
 	color: #fff;
 }
+
+.menu-item-has-children::after,
+.page-item-has-children::after {
+	margin: 0.2rem;
+	position: absolute;
+	font-family: "FontAwesome";
+	content: "\f0d7";
+	vertical-align: middle;
+	color: #fff;
+	top: 50%;
+	left: -20px;
+	transform: translateY(-50%);
+}
+
+.menu-item-has-children::after ul li .page-item-has-children::after,
+.menu-item-has-children::after ul li .menu-item-has-children::after,
+.page-item-has-children::after ul li .page-item-has-children::after,
+.page-item-has-children::after ul li .menu-item-has-children::after {
+	color: #616571;
+	left: 20px;
+}
+
+.page-item-has-children:hover,
+.menu-item-has-children:hover {
+	cursor: pointer;
+}
+
+.page-item-has-children:hover::after,
+.menu-item-has-children:hover::after {
+	color: #e43f21 !important;
+}

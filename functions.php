@@ -142,6 +142,7 @@ function wpacadimy_scripts() {
 	wp_style_add_data( 'wpacadimy-style', 'rtl', 'replace' );
 	wp_enqueue_style('google_fonts' ,'//fonts.googleapis.com/css2?family=Playpen+Sans+Arabic:wght@100..800&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap',);
 	wp_enqueue_script( 'wpacadimy-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_style('font-awesome' ,'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css',);
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -153,6 +154,12 @@ function wpacadimy_resours_hint($urls , $relation_type){
 	if(wp_style_is('google_fonts' , 'queue') && 'preconect' === $relation_type ){
 		$urls = array(
 			'href' => 'https://fonts.gstatic.com',
+			'crossorigin'
+		);
+	}
+	if(wp_style_is('font-awesome' , 'queue') && 'preconect' === $relation_type ){
+		$urls = array(
+			'href' => 'https://cdnjs.cloudflare.com',
 			'crossorigin'
 		);
 	}

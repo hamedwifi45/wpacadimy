@@ -661,3 +661,32 @@ p{
 .site-info{
     color: $color-header-links;
 }
+// 
+// site icons
+// 
+
+.menu-item-has-children::after,
+.page-item-has-children::after{
+    margin: 0.2rem;
+    position: absolute;
+    font-family: $font-awesome;
+    content: "\f0d7";
+    vertical-align: middle;
+    color: $color-header-links;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%);
+    ul li .page-item-has-children::after,
+    ul li .menu-item-has-children::after{
+        color: $color-primary;
+        right: 20px;
+    }
+}
+.page-item-has-children:hover,
+.menu-item-has-children:hover{
+    cursor: pointer;
+
+    &::after{
+        color: $color-link-hover !important;
+    }
+}
