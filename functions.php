@@ -166,6 +166,8 @@ function wpacadimy_resours_hint($urls , $relation_type){
 	return $urls; 
 }
 add_filter( 'wp_resource_hint','wpacadimy_resours_hint',1,2 );
+add_filter( 'wp_resource_hint','wpacadimy_resours_hint',1,2 );
+
 
 /**
  * Implement the Custom Header feature.
