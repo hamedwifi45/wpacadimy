@@ -1,0 +1,75 @@
+/*
+ *
+ * Academy Fonts
+ *
+ */
+
+// @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+@font-face {
+    font-family: "Noto Kufi Regular";
+    src: url('fonts/static/NotoKufiArabic-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Noto Kufi Bold";
+    src: url('fonts/static/NotoKufiArabic-Bold.ttf') format("truetype");
+}
+
+
+$font-primary: "Cairo", sans-serif;
+$font-regular: "Noto Kufi Regular", "Open sans", "Arial";
+$font-bold: "Noto Kufi Bold", "Open sans", "Arial";
+$font-awesome: "FontAwesome";
+
+$font-size: 1.6rem;
+
+
+@mixin htags($factor: 1rem) {
+    h1 {
+        font-size: 2*$factor;
+    }
+
+    h2 {
+        font-size: 1.6*$factor;
+    }
+
+    h3 {
+        font-size: 1.2*$factor;
+    }
+
+    h4 {
+        font-size: 1.1*$factor;
+    }
+
+
+    h5 {
+        font-size: $factor;
+    }
+
+    h6 {
+        font-size: 0.9*$factor;
+    }
+
+}
+
+/*
+*
+ Academy screen sizes
+*
+*/
+$x-large: 1200px;
+$large:1024px;
+$medium: 950px;
+$small: 750px;
+$x-small:460px;
+
+
+$boxshadow-color: #ccc;
+$color_links_hover: #E43F21;
+$color_primary: #616571;
+$color_border: #f2f2f2;
+$color_text: #000000;
+$color_header_links: #fff;
+$color_links: #616571;
+$color_headings: #616571;

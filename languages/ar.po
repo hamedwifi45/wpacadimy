@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-06-05 17:16+0300\n"
+"PO-Revision-Date: 2024-06-05 17:16+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html__;esc_attr__;_ex;_nx;esc_html_e;"
+"esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "عذراً! الصفحة غير موجودة."
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"يبدو أنه لم يتم العثور على أي شيء في هذا الموقع. ربما بإمكانك تجريب أحد "
+
+#: 404.php:30
+msgid "Most Used Categories"
+msgstr "التصنيفات الأكثر استخداماً"
+
+#: 404.php:48
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "حاول أن تبحث في أرشيف الأشهر. %1$s"
+
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "رأي واحد على &ldquo;%1$s&rdquo;"
+
+#: comments.php:41
+#, php-format
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr "%1$s رأي على &ldquo;%2$s&rdquo;"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: dashboard.php:56
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing %1$s. To fully take advantage of our theme "
+"features, please make sure you visit theme details page."
+msgstr ""
+"أهلا بك! شكرا لاختيارك %1$s. للاستفادة الكاملة من ميزات القالب الخاص بنا،  "
+"يرجى التأكد من زيارة صفحة تفاصيل القالب."
+
+#: dashboard.php:58
+#, php-format
+msgid "Get started with %1$s"
+msgstr "إبدأ بـ %1$s"
+
+#: dashboard.php:60
+msgid "Dismiss this notice"
+msgstr "تجاهل هذا الإشعار"
+
+#: dashboard.php:195
+msgid "Academy Theme Options"
+msgstr "إعدادات قالب الأكاديمية"
+
+#: dashboard.php:201
+msgid "Copyrights"
+msgstr "حقوق النشر:"
+
+#: dashboard.php:208
+msgid "Author Name:"
+msgstr "اسم المحرر:"
+
+#: dashboard.php:215
+msgid "Author Website:"
+msgstr "عنوان المحرر الالكتروني:"
+
+#: dashboard.php:222
+msgid "Login page logo:"
+msgstr "شعار صفحة تسجيل الدخول:"
+
+#: dashboard.php:234
+msgid "Admin dashboard footer"
+msgstr "تذييل لوحة تحكم المسؤول"
+
+#: dashboard.php:270
+msgid "Upload"
+msgstr "رفع"
+
+#: dashboard.php:290
+msgid "Academy"
+msgstr "الأكاديمية"
+
+#: functions.php:52
+msgid "Primary"
+msgstr "رئيسي"
+
+#: functions.php:58
+msgid "Social"
+msgstr "التواصل الاجتماعي"
+
+#: functions.php:131
+msgid "Sidebar"
+msgstr "الشريط الجانبي"
+
+#: functions.php:133 functions.php:145
+msgid "Add widgets here."
+msgstr "أضف عناصر الواجهة هنا."
+
+#: functions.php:143
+msgid "Footer Area"
+msgstr "منطقة التذييل"
+
+#: functions.php:197
+msgid "User Name: "
+msgstr "اسم المستخدم: "
+
+#: functions.php:198
+msgid "Blog Name: "
+msgstr "اسم المدونة: "
+
+#: functions.php:199
+msgid "Theme Folder"
+msgstr "مسار ملفات القالب: "
+
+#: functions.php:200
+msgid "Language: "
+msgstr "اللغة: "
+
+#: functions.php:201
+msgid "RTL Status: "
+msgstr "من اليمين الى اليسار: "
+
+#: functions.php:207
+msgid "Site Info"
+msgstr "معلومات الموقع"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "تخطي إلى المحتوى"
+
+#: header.php:49
+msgid "Primary Menu"
+msgstr "القائمة الرئيسية"
+
+#: inc/customizer.php:50
+msgid "Header Links Color"
+msgstr "لون روابط رأس الموقع"
+
+#: inc/customizer.php:73
+msgid "Content Links Color"
+msgstr "لون روابط المحتوى"
+
+#: inc/customizer.php:96
+msgid "Header Color"
+msgstr "لون خلفية الرأس"
+
+#: inc/customizer.php:118
+msgid "Footer Color"
+msgstr "لون خلفية التذييل"
+
+#: inc/customizer.php:130
+msgid "Site Footer"
+msgstr "تذييل الموقع"
+
+#: inc/customizer.php:136
+msgid "Academy Footer Text"
+msgstr "نص تذييل القالب"
+
+#: inc/customizer.php:154
+msgid "Footer Text: "
+msgstr "نص التذييل: "
+
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr "نُشر في %s"
+
+#: inc/template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr "الوسوم %1$s"
+
+#: inc/template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "اترك تعليقاً<span class=\\\"screen-reader-text\\\"> on %s</span>"
+
+#: inc/template-tags.php:100 template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "تعديل <span class=\\\"screen-reader-text\\\">%s</span>"
+
+#: info.php:11
+#, php-format
+msgid ""
+"Howdy %1$s, we would like to thank you for installing and activating %2$s "
+"theme for your precious site. All of the features provided by the theme are "
+"now ready to use. Here, we have gathered all of the essential details and "
+"helpful links for you and your better experience with %2$s. Once again, "
+"Thanks for using our theme!"
+msgstr ""
+"كيف حالك %1$s، نود أن نشكرك على تثبيت وتفعيل قالب %2$s لموقعك الثمين. جميع "
+"الميزات التي يوفرها القالب جاهزة للاستخدام الآن. هنا، جمعنا كل المعلومات "
+"والروابط المفيدة لك ولتجربتك الأفضل مع %2$s. مرة أخرى ، شكرا لاستخدام القالب!"
+
+#: info.php:15
+msgid "Theme Documentation"
+msgstr "وثائق القالب"
+
+#: info.php:17
+msgid ""
+"Please check our full documentation for detailed information on how to setup "
+"and customize the theme."
+msgstr ""
+"يرجى مراجعة وثائقنا الكاملة للحصول على معلومات مفصلة حول كيفية إعداد وتخصيص "
+"القالب."
+
+#: info.php:18
+msgid "View Documentation"
+msgstr "عرض الوثائق"
+
+#: info.php:24 info.php:27
+msgid "Static Front Page"
+msgstr "صفحة أمامية ثابتة"
+
+#: info.php:26
+msgid ""
+"To achieve custom home page other than blog listing, you need to create and "
+"set static front page & assign \"Home\" template from page attributes."
+msgstr ""
+"لتحصل على صفحة رئيسية مخصصة مختلفة عن نمط المدونات، تحتاج إلى إنشاء وتعيين "
+"صفحة أمامية ثابتة وتعيين قالب \"الصفحة الرئيسية\" من خيارات الصفحة."
+
+#: info.php:32
+msgid "Theme Options"
+msgstr "خيارات القالب"
+
+#: info.php:34
+msgid ""
+"Theme uses Customizer API for theme options. Using the Customizer you can "
+"easily customize different aspects of the theme."
+msgstr ""
+"يمكنك استخدام أداة تخصيص القالب لتعديل مظهر القالب. باستخدام أداة التخصيص، "
+"يمكنك تخصيص الجوانب المختلفة للقالب بسهولة."
+
+#: info.php:35
+msgid "Customize"
+msgstr "تخصيص"
+
+#: info.php:40 info.php:43
+msgid "Widgets"
+msgstr "عناصر الواجهة"
+
+#: info.php:42
+msgid ""
+"Theme uses Wedgets API for widget options. Using the Widgets you can easily "
+"customize different aspects of the theme."
+msgstr ""
+"بإمكانك استخدام صفحة عناصر الواجهة لتتمكن من تعديل خيارات وعناصر واجهة "
+"المستخدم. باستخدامك لعناصر الواجهة، يمكنك بسهولة تخصيص جوانب القالب المختلفة."
+
+#: page-fullwidth.php:69
+msgid "Recent Uploaded Images"
+msgstr "الصور التي تمت إضافتها مؤخراً"
+
+#: post-fullwidth.php:45 single.php:23
+msgid "Previous:"
+msgstr "السابق"
+
+#: post-fullwidth.php:46 single.php:24
+msgid "Next:"
+msgstr "التالي"
+
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr "نتائج البحث لـ %s"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "لا يوجد نتائج"
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "عذراً, لا يوجد نتائج مطابقة للبحث المقصود. حاول مرة ثانية من فضلك."
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "يبدو أننا لم نستطع إيجاد الصفحة المطلوبة. ربما البحث سيساعدك."
+
+#: template-parts/content-page.php:25 template-parts/content.php:59
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: template-parts/content.php:38
+msgid "Continue Reading"
+msgstr "تابع القراءة"
+
+#: template-parts/content.php:44
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "تابع القراءة <span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: wpacademy_widget.php:15
+msgid "This Widget displays the social icons"
+msgstr "عنصر الواجهة هذا يقوم بعرض أيقونات وسائل التواصل الاجتماعي"
+
+#: wpacademy_widget.php:20
+msgid "&raquo; Academy Social Icons"
+msgstr "&raquo; أيقونات وسائل التواصل الاجتماعي"
+
+#: wpacademy_widget.php:28
+msgid "Widget Title"
+msgstr "عنوان عنصر الواجهة"
+
+#: wpacademy_widget.php:29
+msgid "Facebook"
+msgstr "فيسبوك:"
+
+#: wpacademy_widget.php:30
+msgid "Twitter"
+msgstr "تويتر:"
+
+#: wpacademy_widget.php:31
+msgid "Instagram"
+msgstr "انستاغرام:"
+
+#: wpacademy_widget.php:32
+msgid "LinkedIn"
+msgstr "لنكدن:"
