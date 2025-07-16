@@ -1138,3 +1138,99 @@ div .social {
     }
   }
 }
+
+
+// 
+// //
+// // // FOOTER SIDEBAR
+// //
+// 
+
+.footer-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  .widget{
+    display: block;
+    padding: 0.5rem;
+    margin: 0;
+    border: 0;
+    word-wrap: break-word;
+    word-break: break-all;
+    width: 25%;
+    &:only-child{
+      width: 100%;
+       text-align: center;
+
+    }
+    ul{
+      padding: 0;
+      margin: 0;
+      text-align: start;
+      font-size: $font-size * 0.6;    
+  }
+}
+h2 , a ,
+.widget li a{
+  color: $color_header_links;
+}
+ a:hover {
+  color: $color_links_hover;
+ }
+}
+@media(max-width: $small){
+  .footer-sidebar{
+    .widget{
+      width: 50%;
+    }
+  }
+}
+@media(max-width: $x-small){
+  .footer-sidebar{
+    .widget{
+      width: 100%;
+    }
+  }
+}
+
+
+//& 
+//&&
+//&&& Socil Widget
+//&& 
+//&
+
+
+.social_widget{
+  display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ justify-content: center;
+ font-size: $font-size*0.7;
+ a{
+  padding: 0.5rem;
+  margin: 0.5rem;
+  color: white;
+  &:hover{
+    color: white;
+  }
+ }
+}
+
+ .social-icons{
+  display: block;
+  .facebook{
+  background-color: blue !important;
+  }
+  .twitter{
+    background-color: black !important;
+  }
+  
+  .linkedin{
+    background-color: #007bb5 !important;
+  }
+  .instagram{
+    background-color: #f46f30 !important;
+  }
+ }

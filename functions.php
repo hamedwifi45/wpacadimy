@@ -161,6 +161,7 @@ function wpacademy_scripts() {
 	wp_enqueue_style('google-fonts', '//fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
 	wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
 
+
 	// wp_enqueue_script( 'wpacademy-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'wpacademy-navigation', get_template_directory_uri() . '/js/academy_nav.js', array('jquery'), _S_VERSION, true );
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

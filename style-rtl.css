@@ -2122,7 +2122,7 @@ site bar menu
 }
 
 .site-info p {
-	color: #fff !important !important;
+	color: #fff !important;
 }
 
 div .social ul {
@@ -2170,4 +2170,95 @@ div .social ul li a[href*="instagram.com"]::before {
 
 div .social ul li a:hover {
 	color: #e43f21;
+}
+
+.footer-sidebar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.footer-sidebar .widget {
+	display: block;
+	padding: 0.5rem;
+	margin: 0;
+	border: 0;
+	word-wrap: break-word;
+	word-break: break-all;
+	width: 25%;
+}
+
+.footer-sidebar .widget:only-child {
+	width: 100%;
+	text-align: center;
+}
+
+.footer-sidebar .widget ul {
+	padding: 0;
+	margin: 0;
+	text-align: start;
+	font-size: 0.96rem;
+}
+
+.footer-sidebar h2,
+.footer-sidebar a,
+.footer-sidebar .widget li a {
+	color: #fff;
+}
+
+.footer-sidebar a:hover {
+	color: #e43f21;
+}
+
+@media (max-width: 750px) {
+
+	.footer-sidebar .widget {
+		width: 50%;
+	}
+}
+
+@media (max-width: 460px) {
+
+	.footer-sidebar .widget {
+		width: 100%;
+	}
+}
+
+.social-icons {
+	display: block;
+}
+
+.social-icons .facebook {
+	background-color: blue !important;
+}
+
+.social-icons .twitter {
+	background-color: black !important;
+}
+
+.social-icons .linkedin {
+	background-color: #007bb5 !important;
+}
+
+.social-icons .instagram {
+	background-color: #f46f30 !important;
+}
+
+.social_widget {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	font-size: 1.12rem;
+}
+
+.social_widget a {
+	padding: 0.5rem;
+	margin: 0.5rem;
+	color: white;
+}
+
+.social_widget a:hover {
+	color: white;
 }
